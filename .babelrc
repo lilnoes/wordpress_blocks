@@ -1,0 +1,13 @@
+{
+  "presets": ["@wordpress/babel-preset-default"],
+  "plugins": [
+    [
+      "prismjs",
+      {
+        "languages": ["javascript", "css", "markup", "jsx"],
+        "plugins": ["line-numbers", "copy-to-clipboard"],
+        "css": true
+      }
+    ]
+  ]
+}

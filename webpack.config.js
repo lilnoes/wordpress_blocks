@@ -5,7 +5,10 @@ const defaultConfig = require("@wordpress/scripts/config/webpack.config");
 
 module.exports = {
   ...defaultConfig,
-  entry: { paragraph: "./src/extends/paragraph/index.js" },
+  entry: {
+    paragraph: "./src/extends/paragraph/index.js",
+    codeHighlight: "./src/blocks/code_highlight/index.js",
+  },
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "[name].js",
