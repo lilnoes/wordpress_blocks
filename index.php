@@ -11,8 +11,8 @@ define("LEON_PLUGIN_BLOCKS", __FILE__);
 
 //Blocks
 //Comment the line to disable it
-require_once(dirname(LEON_PLUGIN_BLOCKS) . '/src/php/blocks/codeHighlight.php');
+require_once(dirname(LEON_PLUGIN_BLOCKS) . '/src/blocks/code_highlight/php/register.php');
 
 //Extends
 //Comment the line to disable it
-require_once(dirname(LEON_PLUGIN_BLOCKS) . '/src/php/extends/paragraph.php');
+require_once(dirname(LEON_PLUGIN_BLOCKS) . '/src/extends/paragraph/php/register.php');
