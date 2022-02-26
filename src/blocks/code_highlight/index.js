@@ -9,6 +9,11 @@ registerBlockType("leon/code-highlight", {
   title: "Code Highlight",
   icon: "editor-code",
   category: "widgets",
+  attributes: {
+    rawText: { type: "string" },
+    html: { type: "string" },
+    language: { type: "string", default: "javascript" },
+  },
 });
 
 console.log("loaded me...");
