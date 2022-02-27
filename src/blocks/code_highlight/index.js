@@ -11,7 +11,7 @@ registerBlockType("leon/code-highlight", {
   category: "widgets",
   attributes: {
     rawText: { type: "string" },
-    html: { type: "string" },
+    html: { type: "string", default: "" },
     language: { type: "string", default: "javascript" },
   },
 });

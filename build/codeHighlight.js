@@ -2746,7 +2746,8 @@ __webpack_require__.r(__webpack_exports__);
       type: "string"
     },
     html: {
-      type: "string"
+      type: "string",
+      default: ""
     },
     language: {
       type: "string",
