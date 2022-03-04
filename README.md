@@ -2,9 +2,13 @@
 This is a list of blocks that i created and use them in my projects.
 
 ## 1. Add Left Border to core paragraph block.
+Add a left border to a paragraph to look like a quote, but contents can be anything.
+
+Read more [here](https://leonema.vercel.app/projects/extending-the-wordpress-default-paragraph-block)
 
 ## 2. PrismJS code highlighter
 Custom block that highlights code using [prismJS](https://prismjs.com/)
+
 Read more [here](https://leonema.vercel.app/projects/wordpress-prismjs-code-highlighter-gutenberg-block)
 
 
